@@ -110,7 +110,7 @@ body,
 }
 
 .btn-primary {
-  display: block; /* Disables inline-block default of buttons */
+  display: open; /* Disables inline-block default of buttons */
   width: 100%; /* Full width */
   box-sizing: border-box; /* Includes padding and border in the width */
 }
