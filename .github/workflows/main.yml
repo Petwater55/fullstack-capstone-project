@@ -45,6 +45,9 @@ jobs:
         with:
           node-version: 18
 
+      - name: Clear npm cache
+        run: npm cache clean --force
+
       - name: Run build
         env:
           CI: "false"
