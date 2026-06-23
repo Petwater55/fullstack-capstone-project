@@ -20,8 +20,11 @@ jobs:
         with:
           node-version: 14
 
-      - name: Install JSHint
-        run: npm install jshint --global
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+         node-version: '20'
+         cache: 'npm' 
 
       - name: Run Linter
         run: |
