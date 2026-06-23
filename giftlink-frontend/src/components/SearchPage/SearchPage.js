@@ -111,7 +111,7 @@ function SearchPage() {
                         {searchResults.length > 0 ? (
                             searchResults.map(product => (
                             <div key={product.id} className="card mb-3">
-                                <img src={product.image} alt={orduct.name} className="card-img-top" />
+                                <img src={product.image} alt={product.name} className="card-img-top" />
                                 <div className="card-body">
                                     <h5 className="card-title">{product.name}</h5>
                                     <p className="card-text">{product.description.slice(0, 100)}...</p>
